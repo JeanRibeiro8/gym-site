@@ -1,0 +1,119 @@
+ body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    a{
+      text-decoration: none;
+  color: inherit;    
+    }
+
+    .primary-color {
+      color: #ff6a00;
+    }
+
+    .btn-custom {
+      background-color: #ff6a00;
+      color: #fff;
+      border-radius: 30px;
+      padding: 10px 25px;
+      border: none;
+      transition: 0.3s;
+    }
+
+    .btn-custom:hover {
+      background-color: #e65c00;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      background: url('/src/img/walppaper.png') center/cover no-repeat;
+      height: 100vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.7);
+      top: 0;
+      left: 0;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    /* FEATURES */
+    .feature-box {
+      border: 2px solid #ff6a00;
+      border-radius: 15px;
+      padding: 25px;
+      transition: 0.3s;
+      height: 100%;
+    }
+
+    .feature-box:hover {
+      transform: scale(1.05);
+    }
+
+    /* ASSESSMENT */
+
+/* Stars style */
+.stars {
+  color: gold;
+  font-size: 18px;
+}
+
+    .testimonial-card {
+      background: #fff;
+      color: #000;
+      border-radius: 15px;
+      padding: 20px;
+    }
+
+    /* CTA */
+    .cta {
+      background: url('/src/img/halter.png') center/cover no-repeat;
+      height: 300px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .cta-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(255,106,0,0.7);
+    }
+
+    .cta-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    /* FORM */
+    .form-control {
+      background-color: #111;
+      border: 1px solid #444;
+      color: #fff;
+    }
+
+    .form-control::placeholder {
+      color: #aaa;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+    }
