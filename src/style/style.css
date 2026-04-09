@@ -28,7 +28,7 @@
 
     /* HERO SECTION */
     .hero {
-      background: url('/src/img/walppaper.png') center/cover no-repeat;
+      background: url('./src/img/walppaper.png') center/cover no-repeat;
       height: 100vh;
       position: relative;
       display: flex;
@@ -79,7 +79,7 @@
 
     /* CTA */
     .cta {
-      background: url('/src/img/halter.png') center/cover no-repeat;
+      background: url('./src/img/halter.png') center/cover no-repeat;
       height: 300px;
       position: relative;
       display: flex;
